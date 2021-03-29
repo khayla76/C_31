@@ -24,7 +24,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(images/bg-main.gif);
   background-size: cover;
   color: white;
   text-align: center;
@@ -97,6 +97,9 @@ header {
 
 .header-left {
   float: left;
+  font-size: 30px;
+  padding: 15px 20px;
+  color: rgb(255, 255, 255);
 }
 
 .header-right {
@@ -123,9 +126,8 @@ header {
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  /* Gantikan property display ke none */
   display: none;
-
+  
 }
 
 .lesson-wrapper {
@@ -206,3 +208,4 @@ footer {
   padding-top: 30px;
   padding-bottom: 20px;
 }
+
