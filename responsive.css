@@ -38,13 +38,13 @@
   
   /* Tambahkan CSS untuk header-right */
   .header-right {
-    display: none;
+    display: block;
   }
   
   /* Tambahkan CSS untuk menu-icon */
   span.menu-icon {
   /* Gantikan property display ke none */
-  display: block;
+  display: none;
 }
   
   .top-wrapper h1 {
