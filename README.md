@@ -1,2 +1,2 @@
 # komara-setio
-sebagai pemula yg terus belajar
+pemula yg terus belajar
