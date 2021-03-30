@@ -1,9 +1,7 @@
 /* Untuk Tablet */
 
 @media (max-width: 1000px) { 
-  .menu-icon {
-      display: none;
-  }
+  
   nav {
       position: relative;
       top: -10px;
