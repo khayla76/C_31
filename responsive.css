@@ -67,4 +67,8 @@
     font-size: 14px;
     line-height: 20px;
   }
+   .menu-icon {
+        display: none;
+    }
+  
 }
