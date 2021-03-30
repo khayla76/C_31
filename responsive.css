@@ -47,5 +47,9 @@ font-size: 32px;
  .top-wrapper p {            
    font-size: 14px;            
    line-height: 20px;            
- }            
+ }   
+  footer {
+    text-align: center;
  }
+  
+}
