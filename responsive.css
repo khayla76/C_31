@@ -1,73 +1,51 @@
-/* Untuk Tablet */
-
-@media (max-width: 1000px) { 
+/* Untuk Tablet */            
+@media screen and (max-width: 1000px) {  
   
-  nav {
-      position: relative;
-      top: -10px;
-      background-color: transparent;
-  }
-  nav ul {
-      max-height: 70px;
-      padding: 15px 0;
-      text-align: right;
-  }
-  nav ul li {
-      display: inline-flex;
-      padding-left: 20px;
-  }
-
+ 
   .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-  
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-  
-  .heading h2 {
-    font-size: 20px;
-  }
-  
-}
+   width: 50%;
+   margin-bottom: 50px;
+ }
+.top-wrapper h1 {            
+font-size: 32px;            
+}  
 
+.heading h2 {
+   font-size: 20px;
+ }
 
+}            
 
+/* Untuk Smartphone */            
+@media screen and (max-width: 670px) { 
+  
+   .lesson {
+   width: 100%;
+ }
+ 
+ .header-right {            
+ display: none;            
+ }            
+.menu-icon {            
+  display: block;            
+ }            
 
-/* Untuk Smartphone */
-@media (max-width: 670px) {
-  .lesson {
-    width: 100%;
-  }
-  
-  footer {
-    text-align: center;
-  }
-  
-  .btn {
-    width: 100%;
-  }
-  
-  .facebook {
-    margin-bottom: 10px;
-  }
-  
-  .top-wrapper {
-    text-align: left;
-  }
-  
-  
-  .top-wrapper h1 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-  
-  .top-wrapper p {
-    font-size: 14px;
-    line-height: 20px;
-  }
-  
-    }
-  
-}
+ .btn {            
+   width: 100%;            
+ }            
+ .facebook {            
+   margin-bottom: 10px;            
+ }            
+ .top-wrapper {            
+   text-align: left;            
+ }            
+.top-wrapper h1 {            
+  font-size: 24px;            
+  line-height: 36px;            
+ }            
+ 
+ .top-wrapper p {            
+   font-size: 14px;            
+   line-height: 20px;            
+ }            
+ }
