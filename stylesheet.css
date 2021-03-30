@@ -247,9 +247,7 @@ nav ul li a:hover, nav ul li a:focus {
 }
 
 @media (min-width: 768px) { 
-    .menu-icon {
-        display: none;
-    }
+   
     nav {
         position: relative;
         top: -10px;
