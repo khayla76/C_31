@@ -1,55 +1,68 @@
-/* Untuk Tablet */            
-@media screen and (max-width: 1000px) {  
-  
- 
-  .lesson {
-   width: 50%;
-   margin-bottom: 50px;
- }
-.top-wrapper h1 {            
-font-size: 32px;            
-}  
+@media (max-width: 800px) {
+    .lesson {
+        width: 50%;
+      }
+      .top-wrapper {            
+        text-align: left;            
+      }            
+     .top-wrapper h1 {            
+       font-size: 24px;            
+       line-height: 36px;            
+      }            
+      
+      .top-wrapper p {            
+        font-size: 14px;            
+        line-height: 20px;            
+      } 
 
-.heading h2 {
-   font-size: 20px;
- }
+      .btn {            
+        width: 100%;   
+      }
+      .container {position:relative; margin:10px 10px;
+    }
+      
+      
+      .facebook {            
+        margin-bottom: 10px; 
+      }
 
-}            
 
-/* Untuk Smartphone */            
-@media screen and (max-width: 670px) { 
-  
-   .lesson {
-   width: 100%;
- }
- 
- .header-right {            
- display: none;            
- }            
-.menu-icon {            
-  display: block;            
- }            
+}
 
- .btn {            
-   width: 100%;            
- }            
- .facebook {            
-   margin-bottom: 10px;            
- }            
- .top-wrapper {            
-   text-align: left;            
- }            
-.top-wrapper h1 {            
-  font-size: 24px;            
-  line-height: 36px;            
- }            
- 
- .top-wrapper p {            
-   font-size: 14px;            
-   line-height: 20px;            
- }   
-  footer {
-    text-align: center;
- }
-  
+@media (min-width: 768px) { 
+    
+    
+    .menu-icon {
+        display: none;
+    }
+    nav {
+        position: relative;
+        top: -10px;
+        background-color: transparent;
+    }
+    nav ul {
+        max-height: 70px;
+        padding: 15px 0;
+        text-align: right;
+    }
+    nav ul li {
+        display: inline-flex;
+        padding-left: 20px;
+    }
+    
+}
+
+@media (max-width: 402px) {
+    
+    .btn {            
+        width: 100%;            
+      }            
+      .facebook {            
+        margin-bottom: 10px;            
+      }  
+      .container {position:relative; margin:0px 20px;
+    }
+    .lesson {
+        width: 100%;
+    }
 }
